@@ -8,11 +8,11 @@ import org.springframework.context.annotation.ComponentScan;
 //@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan(basePackages = {"com.example.demo*"})
-public class FoodFrenzyApplication {
+@ComponentScan(basePackages = {"com.ues.edu*"})
+public class FoodApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FoodFrenzyApplication.class, args);
+		SpringApplication.run(FoodApplication.class, args);
 	}
 
 }
