@@ -15,7 +15,7 @@
     <description>Implementacion de SIPAGO utilizando Spring Framework</description>
     <properties>
         <java.version>1.8</java.version>
-        <start-class>com.example.demo.FoodFrenzyApplication</start-class>
+        <start-class>com.ues.edu.FoodApplication</start-class>
     </properties>
     <dependencies>
         <dependency>
@@ -58,7 +58,7 @@
         </dependency>
 		
    		
-<!--        <dependency>
+        <!--        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>-->
@@ -67,6 +67,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
+<!--        <dependency>
+            <groupId>io.github.kilmajster</groupId>
+            <artifactId>ngrok-spring-boot-starter</artifactId>
+            <version>0.9.2</version>
+        </dependency>-->
 
     </dependencies>
 
